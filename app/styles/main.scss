@@ -1,0 +1,33 @@
+@import './bootstrap/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+
+#header{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Courgette";
+    background-color: unset;
+    border: none;
+    
+}
+
+body,html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    background-image: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=background-calm-clouds-747964.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#floatin{
+    position: relative;
+    top:76vh;
+    text-align: center;
+}
+
