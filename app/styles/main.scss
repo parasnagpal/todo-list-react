@@ -5,6 +5,8 @@
 #header{
     text-align: center;
     font-size: 2em;
+    position: sticky;
+    top:0%;
     font-family: "Courgette";
     background-color: unset;
     border: none;
@@ -17,17 +19,39 @@ body,html{
 
 body{
     height:100%;
+    background-attachment: fixed;
     background-image: url("https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?cs=srgb&dl=background-calm-clouds-747964.jpg&fm=jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+
+    
 }
 
+.enter_task{  
+    position: sticky;
+    bottom: 5%;
+    display: flex;
 
-#floatin{
-    position: relative;
-    top:76vh;
-    text-align: center;
+    input{
+        width: 100%;
+        padding: 2em;
+        flex-grow: 2;
+        outline: none;
+   }   
+    button{
+      position: absolute;
+      right: 5%;
+      top: 0.7em;
+    }
 }
 
+ul{
+    max-height: 50%;
+}
+
+.rounded{
+    border-radius: 2.25rem !important;
+}

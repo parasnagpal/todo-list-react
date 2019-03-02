@@ -49,15 +49,15 @@ class App extends React.Component {
 
     return(
       <React.Fragment>
-        <div id="floatin">
-        <div id="bottom" className="container">
-         <div className="row">
-          <input type="text" placeholder="New Task.." id="task" className="mx-4 rounded col" onChange={this.setstate}/>
-            <button onClick={this.addtask} className="p-2 col-2">Add</button>    
-          </div>
-         </div>
+        
+        
+        <div className="enter_task">
+          <input type="text" placeholder="New Task.." id="task" className="mx-4 rounded form-control" onChange={this.setstate}/>
+            <button onClick={this.addtask} className="p-2 col-2 btn btn-dark rounded">Add</button>    
         </div>
-         <List items={list} updateItem={this.updateItem}/>
+        <List items={list} updateItem={this.updateItem}/>
+        
+         
       
       </React.Fragment>
     )

@@ -3,7 +3,7 @@ import React from 'react';
 import '../ListItem/style.scss'
 
 const ListItem=({title,done,toggleStatus})=>(
- <li className="list-item">
+ <li className="list-item rounded">
    <span className="title">{title}</span>
    <button className="status btn btn-dark" value={done} onClick={toggleStatus}>
     {checkstatus(done)}
